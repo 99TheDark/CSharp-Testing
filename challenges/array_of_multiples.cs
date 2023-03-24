@@ -26,7 +26,8 @@ class Challenge6
         return mults;
     }
     
-    static void PrintArray(int[] arr) {
+    static void PrintArray(int[] arr) 
+    {
         Console.WriteLine($"[{string.Join(", ", arr)}]");
     }
     
